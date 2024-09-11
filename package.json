@@ -1,10 +1,12 @@
 {
-    "name": "portfolio_react",
+  "homepage": "https://github.com/setthananp/portfolio-setthanan",
+  "name": "portfolio_react",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "build": "vite build",
     "dev": "vite",
     "lint": "eslint .",
