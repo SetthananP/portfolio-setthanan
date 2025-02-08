@@ -12,7 +12,7 @@ import RabbitLogoImg from "../../assets/rabbitLogo.png";
 
 const Experience = () => {
   return (
-    <div id="Experience" className="p-10 md:p-24">
+    <div id="Experience" className="p-6 md:p-24">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Experience</h1>
       <div className="flex flex-wrap items-center justify-around">
         <div className="grid grid-cols-3 gap-5 md:w-2/5 md:p-12 py-10 justify-items-center">
@@ -35,10 +35,10 @@ const Experience = () => {
             <FaFigma color="#F24E1E" size={50} />
           </span>
         </div>
-        <div className="flex gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center">
-          <img className="md:w-20" src={RabbitLogoImg} alt="RabbitLogo img" />
-          <span className="text-white ">
-            <h2 className="leading-tight">Frontend Developer, Rabbit Group</h2>
+        <div className="flex flex-col md:flex-row gap-4 md:gap-10 bg-slate-950 bg-opacity-45 mt-4 rounded-lg p-4 items-center w-full md:w-auto">
+          <img className="w-16 md:w-20" src={RabbitLogoImg} alt="RabbitLogo img" />
+          <span className="text-white text-center md:text-left">
+            <h2 className="leading-tight">Frontend Developer Intern, Rabbit Group</h2>
             <p className="text-sm leading-tight font-thin">
               1 June - 31 July 2023
             </p>
@@ -46,6 +46,12 @@ const Experience = () => {
               <li>
                 - fetched data from backend APIs and displayed it on both
                 Android and iOS applications.
+              </li>
+              <li>
+                - Converted JavaScript code to Dart.
+              </li>
+              <li>
+                - Utilized GitLab for version control and team collaboration.
               </li>
             </ul>
           </span>

@@ -10,10 +10,10 @@ const Home = () => {
         </h1>
         <br />
         <p className="text-sm md:text-2xl tracking-tight">
-          I've just graduated in Software Engineering with a strong interest in
-          Front-end Development. I'm really excited to start working and to put
-          my skills to use in helping companies grow and succeed. I can't wait
-          to get started and be part of a great team!
+          I am recent Software Engineering graduate, skilled in Dart/Flutter,
+          Frontend, UX/UI Design. My projects focus on mobile development using
+          Flutter. I am interested to be considered for a full time Flutter
+          Developer or Mobile Developer position
         </p>
       </div>
     </div>
